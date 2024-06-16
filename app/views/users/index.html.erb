@@ -12,6 +12,7 @@
       <tr>
         <td><%= user.id %></td>
         <td><%= user.name %></td>
+        <td><%= image_tag user.avatar %></td>
         <td>
           <%= link_to 'Show', user %>
           <%= link_to 'Edit', edit_user_path(user) %>
